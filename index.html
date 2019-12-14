@@ -27,6 +27,32 @@
 
    </head>
    <body>
+      
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAQPxCAgdz2VVuALNtdV3OFNtYmCSmp9LQ",
+    authDomain: "xembongdalive.firebaseapp.com",
+    databaseURL: "https://xembongdalive.firebaseio.com",
+    projectId: "xembongdalive",
+    storageBucket: "xembongdalive.appspot.com",
+    messagingSenderId: "604928377454",
+    appId: "1:604928377454:web:0a3d203def235cbe5cdc7f",
+    measurementId: "G-0NYVGKL8KZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+      
+      
       <div>
          <div align="center"><img src="https://i.imgur.com/0xftEio.jpg" alt="" border="0" /> <br />
          </div>
@@ -34,7 +60,9 @@
       <br />
       Ứng dụng xem truyền hình trực tiếp bóng đá, thể thao. Cho phép xem trực tiếp sự kiện thể thao 24/24: World Cup, Ngoại hạng Anh, Serie A, La Liga, Champions League, V League, các sự kiện tennis, golf, đua xe.<br />
       <br />
-      <a href="https://github.com/amboresanchella/xem-bong-da/releases/download/2.0/app-soccer-offline.apk"><img src="https://i.imgur.com/RUQmVJt.png" alt="" border="0" /></a><br />
+      <a href="https://github.com/amboresanchella/xem-bong-da/releases/download/2.0/app-soccer-offline.apk">
+         analytics.logEvent('download_apk', { name: 'tai app offline'});
+         <img src="https://i.imgur.com/RUQmVJt.png" alt="" border="0" /></a><br />
       <strong><span class="style4">*Phiên bản 2.0 nâng cấp ngày 12/12/2019: </span>
       </strong>
       <ul>
@@ -58,7 +86,9 @@
       <p>
          <span class="style4"><strong>*Link tải trực tiếp bản mới nhất: </strong></span>
       </p>
-      <a href="https://github.com/amboresanchella/xem-bong-da/releases/download/2.0/app-soccer-offline.apk"><img src="https://i.imgur.com/RUQmVJt.png" alt="" border="0" /></a><br />
+      <a href="https://github.com/amboresanchella/xem-bong-da/releases/download/2.0/app-soccer-offline.apk">
+         analytics.logEvent('download_apk', { name: 'tai app offline'});
+         <img src="https://i.imgur.com/RUQmVJt.png" alt="" border="0" /></a><br />
       <p>
       <div>
       <div align="center"><br />
